@@ -29,8 +29,6 @@ function filterTag(titleString) {
 
 function getEntries(idbox,searchTerm) {
 
-    let element = document.getElementById(idbox);
-
     // Query string for REST-API
     let query_string1 = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=" + searchTerm + "&retmax=100&retmode=json";
     //alert(query_string1);
@@ -114,7 +112,7 @@ function getEntries(idbox,searchTerm) {
             }
         });
 
-        element.appendChild(allPublications);
+        document.getElementById(idbox).appendChild(allPublications);
 
     });
 
