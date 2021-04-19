@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<title>
-Demo Pubmed-ID + reference list by JavaScript
-</title>
-
-<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script type="application/javascript">
 
 //
 // Javascript to build a reference list  by JavaScript and a PubMed query online
@@ -117,21 +106,3 @@ function getEntries(idbox,searchTerm) {
     });
 
 };
-</script>
-
-<style>
- .pubList { margin-left:35px;}  
-
- div > ul > li > a { 
-	margin-right:5px;   
-	text-decoration:none;
-}
-	}
-</style>
-</head>
-<body>
-<div id=LitList></div>
-
-<script type="application/javascript"> getEntries("ListList","(Medical Faculty Mannheim[AD])") </script>
-</body>
-</html>
