@@ -6,7 +6,7 @@ This small JavaScript generates a reference list from a PubMed query directly.
 ## For example: Search by author: "Bohne-Lang"[AU]
 ```
 <div id="LitList"></div>
-<script type="application/javascript"> getEntries("LitList","(Medical Faculty Mannheim[AD])") </script>
+<script type="application/javascript"> getEntries("LitList","(Bohne-Lang"[AU])") </script>
 ```
 
 ![example](https://raw.githubusercontent.com/bohnelang/PubmedJavascriptReferenceList/main/example1.jpg)
