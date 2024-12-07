@@ -67,9 +67,9 @@ function getEntries(idbox,searchTerm) {
                     let publicationEntry = document.createElement('li');
 
                     // Iterate through list of authors
-                    for (i = 0; i < authorListLength - 1; i++) {
+                    for (i = 0; i < authorListLength; i++) {
                         publicationEntry.innerHTML += value.authors[i].name;
-                        if (i < authorListLength - 2) {
+                        if (i < authorListLength - 1) {
                             publicationEntry.innerHTML += ", ";
                         }
                     }
